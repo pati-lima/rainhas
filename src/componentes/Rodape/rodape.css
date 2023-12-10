@@ -1,0 +1,43 @@
+.footer {
+    background:#9b0b57f3;
+    color: #FFF;
+    padding: 10px; /* Reduzi o padding para diminuir a altura */
+    display: flex;
+    flex-wrap: wrap; /* Permitir que os itens do rodapé se ajustem em dispositivos pequenos */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+p{
+    font-size: medium;
+   color: #FFF;
+}
+
+/* Adicione estilos para dispositivos móveis usando media queries */
+@media only screen and (max-width: 600px) {
+    .footer ul li {
+        display: block;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+}
+
+/* Estilos para a logo */
+.footer section img {
+    max-width: 55px; /* Ajuste o tamanho máximo da logo conforme necessário */
+    /* margin-right: 2em; */
+}

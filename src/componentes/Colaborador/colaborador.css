@@ -1,0 +1,77 @@
+.colaborador {
+    position: relative;
+    width: 280px;
+    
+    margin: 0 auto 20px;
+}
+
+.colaborador .cabecalho {
+    background-color:  #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.colaborador img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaborador .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.colaborador .rodape h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.colaborador .rodape h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 16px;
+}
+
+.deletar {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+/* Adicione estilos para dispositivos móveis usando media queries */
+@media only screen and (max-width: 600px) {
+    .colaborador {
+        width: 100%; /* Ocupa a largura total da tela */
+    }
+
+    .colaborador img {
+        width: 80px; /* Ajuste o tamanho da imagem para dispositivos móveis */
+        bottom: -40px; /* Ajuste a posição da imagem */
+    }
+
+    .deletar {
+        right: 0;
+        top: 0;
+    }
+
+    .colaborador .rodape {
+        padding-top: 60px; /* Ajuste o padding do rodapé */
+        padding-bottom: 20px; /* Ajuste o padding do rodapé */
+    }
+
+    .colaborador .rodape h4 {
+        font-size: 16px; /* Ajuste o tamanho da fonte para dispositivos móveis */
+    }
+
+    .colaborador .rodape h5 {
+        font-size: 16px; /* Ajuste o tamanho da fonte para dispositivos móveis */
+    }
+}
